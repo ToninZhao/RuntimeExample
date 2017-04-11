@@ -14,6 +14,8 @@
 		3236D1A81E9BAA7E003DEA2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3236D1A71E9BAA7E003DEA2C /* Assets.xcassets */; };
 		3236D1AB1E9BAA7E003DEA2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3236D1A91E9BAA7E003DEA2C /* LaunchScreen.storyboard */; };
 		3236D1B41E9BB184003DEA2C /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 3236D1B31E9BB184003DEA2C /* NSObject+Property.m */; };
+		329CF3E41E9CCDAC004CACDE /* runtime调用方法.png in Resources */ = {isa = PBXBuildFile; fileRef = 329CF3E31E9CCDAC004CACDE /* runtime调用方法.png */; };
+		329CF3E71E9CD54B004CACDE /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 329CF3E61E9CD54B004CACDE /* SecondVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,9 @@
 		3236D1AC1E9BAA7E003DEA2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3236D1B21E9BB184003DEA2C /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
 		3236D1B31E9BB184003DEA2C /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		329CF3E31E9CCDAC004CACDE /* runtime调用方法.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "runtime调用方法.png"; sourceTree = "<group>"; };
+		329CF3E51E9CD54B004CACDE /* SecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		329CF3E61E9CD54B004CACDE /* SecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +66,15 @@
 		3236D19A1E9BAA7E003DEA2C /* RuntimeExample */ = {
 			isa = PBXGroup;
 			children = (
+				329CF3E31E9CCDAC004CACDE /* runtime调用方法.png */,
 				3236D19E1E9BAA7E003DEA2C /* AppDelegate.h */,
 				3236D19F1E9BAA7E003DEA2C /* AppDelegate.m */,
 				3236D1B21E9BB184003DEA2C /* NSObject+Property.h */,
 				3236D1B31E9BB184003DEA2C /* NSObject+Property.m */,
 				3236D1A11E9BAA7E003DEA2C /* ViewController.h */,
 				3236D1A21E9BAA7E003DEA2C /* ViewController.m */,
+				329CF3E51E9CD54B004CACDE /* SecondVC.h */,
+				329CF3E61E9CD54B004CACDE /* SecondVC.m */,
 				3236D1A41E9BAA7E003DEA2C /* Main.storyboard */,
 				3236D1A71E9BAA7E003DEA2C /* Assets.xcassets */,
 				3236D1A91E9BAA7E003DEA2C /* LaunchScreen.storyboard */,
@@ -145,6 +153,7 @@
 				3236D1AB1E9BAA7E003DEA2C /* LaunchScreen.storyboard in Resources */,
 				3236D1A81E9BAA7E003DEA2C /* Assets.xcassets in Resources */,
 				3236D1A61E9BAA7E003DEA2C /* Main.storyboard in Resources */,
+				329CF3E41E9CCDAC004CACDE /* runtime调用方法.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +167,7 @@
 				3236D1A31E9BAA7E003DEA2C /* ViewController.m in Sources */,
 				3236D1A01E9BAA7E003DEA2C /* AppDelegate.m in Sources */,
 				3236D1B41E9BB184003DEA2C /* NSObject+Property.m in Sources */,
+				329CF3E71E9CD54B004CACDE /* SecondVC.m in Sources */,
 				3236D19D1E9BAA7E003DEA2C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,6 +327,7 @@
 				3236D1B11E9BAA7E003DEA2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
